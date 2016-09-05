@@ -19,6 +19,10 @@ namespace TestGit
         private void button1_Click(object sender, EventArgs e)
         {
             textBox1.Text = "hello";
+            if (1==1)
+            {
+                textBox1.Text = "no hello";
+            }
         }
     }
 }
